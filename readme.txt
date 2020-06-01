@@ -14,7 +14,7 @@ There are 4 different chrome version for linux and mac in this framework
 If you have old version of chrome (e.g. 79) you need update it
 
 4) Go to -src right click on TestNG.xml and run tests(In that way to execution you need to install Java IDE like
- IntelliJ IDEA or Eclipse) or open terminal in /src and run "mvn test"
+ IntelliJ IDEA or Eclipse) or open terminal in /src and run "mvn test"( for this you need to install maven in your machine)
 
 Task 2 :
 How you would approach automation testing of responsive websites

@@ -20,7 +20,6 @@ public class BasePageActions {
     public BasePageActions(WebDriver driver, Logger logger) {
         this.driver = driver;
         this.logger = logger;
-
     }
 
     protected void openUrl(String url) {

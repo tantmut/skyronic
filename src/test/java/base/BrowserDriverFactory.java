@@ -13,12 +13,17 @@ public class BrowserDriverFactory {
 
     private Logger log;
 
-    public BrowserDriverFactory(String browser, Logger log) {
+    private BrowserDriverFactory(String browser, Logger log) {
         this.browser = browser.toLowerCase();
         this.log = log;
     }
 
-    public WebDriver createDriver() {
+    public static WebDriver getDriver(String browser, Logger log) {
+        BrowserDriverFactory driverFactory = new BrowserDriverFactory(browser, log);
+        return driverFactory.createDriver();
+    }
+
+    private WebDriver createDriver() {
         log.info("Create drive: " + browser);
 
         switch (browser) {

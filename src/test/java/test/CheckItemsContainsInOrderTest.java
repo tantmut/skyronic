@@ -10,7 +10,7 @@ import java.util.List;
 
 public class CheckItemsContainsInOrderTest extends BaseTest {
 
-//    @Test(dataProvider = "getProducts", dataProviderClass = HomePageDP.class, description = "check products", groups = "regression")
+    @Test(dataProvider = "getProducts", dataProviderClass = HomePageDP.class, description = "check products", groups = "regression")
     public void checkItemsContainsInOrderTest(List<String> expectedProductsName, List<String> expectedProductsPrice) throws InterruptedException {
         HomePageActions actions = new HomePageActions(driver, log);
 
@@ -23,7 +23,5 @@ public class CheckItemsContainsInOrderTest extends BaseTest {
 
         Assert.assertEquals(allProductsName, expectedProductsName);
         Assert.assertEquals(allProductsPrice, expectedProductsPrice);
-
-
     }
 }

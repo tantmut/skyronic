@@ -1,1 +1,10 @@
 utils/Utils.class
+base/BrowserDriverFactory.class
+dataprovider/BaseDP.class
+pages/HomePage.class
+pages/DetailsPage.class
+dataprovider/HomePageDP.class
+actions/BasePageActions.class
+actions/HomePageActions.class
+actions/DetailsPageActions.class
+base/BaseTest.class

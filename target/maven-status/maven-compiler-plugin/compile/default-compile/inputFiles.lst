@@ -1,1 +1,10 @@
+/home/nazar/Documents/projects/src/main/java/base/BaseTest.java
 /home/nazar/Documents/projects/src/main/java/utils/Utils.java
+/home/nazar/Documents/projects/src/main/java/dataprovider/HomePageDP.java
+/home/nazar/Documents/projects/src/main/java/pages/HomePage.java
+/home/nazar/Documents/projects/src/main/java/actions/HomePageActions.java
+/home/nazar/Documents/projects/src/main/java/actions/DetailsPageActions.java
+/home/nazar/Documents/projects/src/main/java/base/BrowserDriverFactory.java
+/home/nazar/Documents/projects/src/main/java/dataprovider/BaseDP.java
+/home/nazar/Documents/projects/src/main/java/pages/DetailsPage.java
+/home/nazar/Documents/projects/src/main/java/actions/BasePageActions.java

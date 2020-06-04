@@ -1,12 +1,3 @@
-base/BrowserDriverFactory.class
-dataprovider/BaseDP.class
-test/CheckCountOfIpadInStockTest.class
-pages/HomePage.class
-pages/DetailsPage.class
-actions/HomePageActions.class
 test/CheckOutOfStockTest.class
-dataprovider/HomePageDP.class
-actions/BasePageActions.class
-actions/DetailsPageActions.class
-base/BaseTest.class
+test/CheckCountOfIpadInStockTest.class
 test/CheckItemsContainsInOrderTest.class
